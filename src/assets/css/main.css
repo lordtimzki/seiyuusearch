@@ -17,6 +17,7 @@ header h1 {
 }
 header h1 strong {
   color: #38bdf8;
+  font-weight: 300;
 }
 
 .content-wrap {
@@ -97,21 +98,22 @@ header h1 strong {
   margin: 32px -8px 0px;
 }
 .content-wrap main .seiyuu-list .seiyuu-card {
-  flex: 1 1 33.333%;
-  max-width: 33.333%;
-  padding: 16px 8px;
+  flex: 1 1 20%;
+  max-width: 20%;
+  padding: 12px 6px;
+  text-align: center;
 }
 .content-wrap main .seiyuu-list .seiyuu-card a {
   text-decoration: none;
 }
 .content-wrap main .seiyuu-list .seiyuu-card figure {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 .content-wrap main .seiyuu-list .seiyuu-card figure img {
   display: block;
   width: 100%;
-  height: 350px;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 16px;
@@ -120,6 +122,10 @@ header h1 strong {
 }
 .content-wrap main .seiyuu-list .seiyuu-card h3 {
   color: #313131;
+  width: 100;
+}
+.content-wrap main .seiyuu-list .seiyuu-card p {
+  font-weight: 100;
 }
 .content-wrap main .seiyuu-list .seiyuu-card:hover figure img {
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
