@@ -90,25 +90,25 @@ header h1 strong {
   background-color: #313131;
   color: #fff;
 }
-.content-wrap main .anime-list {
+.content-wrap main .seiyuu-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 32px;
   margin: 32px -8px 0px;
 }
-.content-wrap main .anime-list .anime-card {
+.content-wrap main .seiyuu-list .seiyuu-card {
   flex: 1 1 33.333%;
   max-width: 33.333%;
   padding: 16px 8px;
 }
-.content-wrap main .anime-list .anime-card a {
+.content-wrap main .seiyuu-list .seiyuu-card a {
   text-decoration: none;
 }
-.content-wrap main .anime-list .anime-card figure {
+.content-wrap main .seiyuu-list .seiyuu-card figure {
   display: block;
   margin-bottom: 16px;
 }
-.content-wrap main .anime-list .anime-card figure img {
+.content-wrap main .seiyuu-list .seiyuu-card figure img {
   display: block;
   width: 100%;
   height: 350px;
@@ -118,10 +118,10 @@ header h1 strong {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
   transition: 0.4s;
 }
-.content-wrap main .anime-list .anime-card h3 {
+.content-wrap main .seiyuu-list .seiyuu-card h3 {
   color: #313131;
 }
-.content-wrap main .anime-list .anime-card:hover figure img {
+.content-wrap main .seiyuu-list .seiyuu-card:hover figure img {
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
   transform: scale(1.05);
 }/*# sourceMappingURL=main.css.map */
